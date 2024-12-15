@@ -12,6 +12,10 @@ documentation = "https://docs.rs/nostro2/latest/nostro2/"
 [lib]
 crate-type = ["cdylib", "rlib"]
 
+[[example]]
+name = "nostrO2-cli"
+path = "examples/cli/main.rs"
+
 [dependencies]
 # Error handling
 anyhow = "1.0.94"
